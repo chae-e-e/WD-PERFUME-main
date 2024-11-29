@@ -124,4 +124,4 @@ WD-ProjectName
 | Readymade UI | Source of codes | readymadeui.com |
 | TailWindFlex | Source of codes | tailwindflex.com |
 | Merakiui | Source of codes | merakiui.com |
-| Lacoste's website | This is the inspiration of the website made. | Lacoste.com.ph |
+
