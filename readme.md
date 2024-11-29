@@ -62,10 +62,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- The project is to create website regarding an existing perfume brand. The website should functional and responsive through all devices.
+- The purpose of the project is to enhance the student's knowledge about creating a functional and responsive website.
+- The website should be responsive, clickable, user-friendly layout, and lastly functional.
+- The technologies used are main tailwind.css and vs code.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -79,6 +79,7 @@ Guiding Question:
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![TailWind](https://readmebadge.vercel.app/badges/tailwind.svg)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -119,4 +120,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Lacoste's website | This is the inspiration of the website made. | Lacoste.com.ph |
+| Readymade UI | Source of codes | readymadeui.com |
+| TailWindFlex | Source of codes | tailwindflex.com |
+| Merakiui | Source of codes | merakiui.com |
+| Lacoste's website | This is the inspiration of the website made. | Lacoste.com.ph |
