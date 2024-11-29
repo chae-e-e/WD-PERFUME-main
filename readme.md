@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  --> chae-e-e
 <!-- TODO: Change the WD-Template-Project into the same name of your folder --> WD-PERFUME-main
-![](<img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fchae-e-e.github.io%2FWD-PERFUME-main%2F&s=40&c=00ff00&bg=00000000&no=3&ff=digi&tb=&ta=" alt="visits">
+(<img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fchae-e-e.github.io%2FWD-PERFUME-main%2F&s=40&c=00ff00&bg=00000000&no=3&ff=digi&tb=&ta=" alt="visits">
 
 ---
 
