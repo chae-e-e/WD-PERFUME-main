@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacoste | Philippines</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <section class='flex items-center lg:justify-center flex-wrap gap-5 relative py-0 px-6 border-b lg:min-h-[80px] max-lg:min-h-[60px]'>
+    <img src="./assets/img/lacoste logo.png" alt="logo" class='sm:w-[100px] w-10' />
+  </section>
+
+  <div class="flex flex-wrap py-3.5 px-6 overflow-x-auto">
+
+    <div class='flex ml-auto lg:hidden'>
+      <button id="toggleOpen" class='text-slate-900'>
+        <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div id="collapseMenu" class='lg:block w-full hidden max-lg:fixed max-lg:bg-white max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+      <ul class='2xl:flex 2xl:justify-center 2xl:gap-x-20 max-2xl:space-y-3'>
+        <li class='mb-6 hidden max-lg:block'>
+          <a href="javascript:void(0)">
+            <img src="./assets/img/lacoste logo.png" alt="logo" class='w-36' />
+          </a>
+        </li>
+        <li class='max-xl:border-b max-lg:py-4'>
+          <a href="./index.html" class='hover:text-[#14532d] text-slate-900 font-bold text-[15px] block'>Home</a>
+        </li>
+        <li class='max-xl:border-b max-lg:py-4'>
+          <a href="./pages/page1/index.html" class='hover:text-[#14532d] text-slate-900 font-bold text-[15px] block'>About</a>
+        </li>
+        <li class='max-xl:border-b max-lg:py-4'>
+          <a href="./pages/page2/index.html" class='hover:text-[#14532d] text-slate-900 font-bold text-[15px] block'>Fragrances</a>
+        </li>
+        <li class='max-xl:border-b max-lg:py-4'>
+          <a href="./pages/page3/index.html" class='hover:text-[#14532d] text-slate-900 font-bold text-[15px] block'>Contacts</a>
+        </li>
+      </ul>
+    </div>
+
+    <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3 hidden'>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-black" viewBox="0 0 320.591 320.591">
+        <path d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"></path>
+      </svg>
+    </button>
+  </div>
+
+  <div class="relative w-full h-[700px] mb-12">
+    <div class="relative w-full h-full">
+
+        <video class="w-full h-full object-cover" autoplay loop muted>
+            <source src="./assets/img/perfume.mp4" type="video/mp4">
+        </video>
+
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+
+        <div class="absolute inset-x-0 bottom-0 h-1/4 md:h-1/2 bg-gradient-to-t from-white to-transparent"></div>
+
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-white z-10 px-4">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-2">Welcome to Lacoste</h1>
+            <h3 class="text-xl sm:text-2xl md:text-3xl text-center">Where Sport Meets Style</h3>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="bg-gray-100 px-6 py-12 font-helvetica mt-12">
+    <div class="lg:max-w-7xl max-w-lg mx-auto px-6 sm:px-10 md:px-20 py-10 bg-white rounded-lg shadow-xl">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 pb-5">
+
+        <div class="flex justify-center">
+          <img src="./assets/img/home photo.jpg" alt="Image" class="rounded-md object-cover w-full h-auto max-h-[500px] lg:max-h-[900px]" />
+        </div>
+
+        <div class="flex flex-col justify-center">
+          <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-helvetica font-bold text-slate-900 mb-4">Live the Lacoste Life</h2>
+          <p class="text-xl sm:text-2xl lg:text-2xl text-slate-900 text-justify">
+            Step into a world where elegance meets sport. Since 1933, Lacoste has been a symbol of timeless French style and innovation. From the iconic crocodile logo to the pioneering tennis apparel, we continue to blend performance with sophistication. Whether on the court or at a casual outing, Lacoste offers collections that reflect both luxury and sport. As we celebrate over 90 years of effortless style, we remain committed to craftsmanship, quality, and sustainability, all while staying true to our rich heritage. Join us and embrace a lifestyle of confidence, innovation, and timeless elegance. Welcome to the Lacoste family!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class='flex items-center lg: flex-wrap gap-5 relative py-0 px-6 border-b md:min-h-[50px]'></section>
+  <footer class='shadow-md bg-white font-sans tracking-wide relative z-50'>
+    <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
+            <img class="w-12 h-12" src="./assets/img/logo.png" alt="">
+        </a>
+        <p class="text-sm text-slate-900 dark:text-slate-900">© Copyright Lacoste 2024. All Rights Reserved.</p>
+    </div>
+  </section>
+
+  <script>
+    const toggleOpen = document.getElementById('toggleOpen');
+    const toggleClose = document.getElementById('toggleClose');
+    const navMenu = document.getElementById('collapseMenu');
+
+    toggleOpen.addEventListener('click', () => {
+      navMenu.classList.remove('hidden');
+      toggleOpen.classList.add('hidden');
+      toggleClose.classList.remove('hidden');
+    });
+
+    toggleClose.addEventListener('click', () => {
+      navMenu.classList.add('hidden');
+      toggleClose.classList.add('hidden');
+      toggleOpen.classList.remove('hidden');
+    });
+  </script>
+
+
+</body>
+</html>
